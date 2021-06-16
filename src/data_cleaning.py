@@ -1,4 +1,4 @@
-from data_preprocessing import preprocessing
+from data_preprocessing import preprocessing,utils
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
@@ -28,6 +28,7 @@ encoded_data = preprocessor.encode_data(refined_data,5)
 ## train test Split
 X_train,X_test,y_train,y_test = train_test_split(encoded_data,target,test_size=0.2,random_state=42)
 
+
 ## scale dataset
 
 standardized_data_train = preprocessor.scale_dataset(X_train)
@@ -36,3 +37,5 @@ standardized_data_test = preprocessor.scale_dataset(X_test)
 ## Save processed dataset
 standardized_data_train.to_csv("../dataset/processed/standardized_train_dataset.csv",index=False)
 standardized_data_test.to_csv("../dataset/processed/standardized_test_dataset.csv",index=False)
+#y_train.to_csv("../dataset/processed/train_labels.csv",index=False)
+#y_test.to_csv("../dataset/processed/test_labels.csv",index=False)

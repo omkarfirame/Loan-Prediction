@@ -217,3 +217,4 @@ class Preprocessor:
             return self.scaled_data_df
         except:
             print("Exception occured in data scaling")
+
