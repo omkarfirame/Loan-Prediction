@@ -6,10 +6,10 @@ def label_encoder(target):
 
     :return:
     """
-    target = target
     try:
-        label = list(np.where(target.iloc[:, 0] == 'Y', 1, 0))
+        #label = list(np.where(target.iloc[:, 0] == 'Y', 1, 0))
+        target = target.iloc[:,0].map({"Y": 1, "N": 0})
         print("label encoder is successful")
-        return pd.DataFrame(label)
+        return pd.DataFrame(target)
     except:
         print("Error occured in label encoder method")

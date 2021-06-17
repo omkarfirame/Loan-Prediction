@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49ea7d8f-f7ef-4bb4-8305-8090997ef716" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/best_model_finder/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_preprocessing/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_cleaning.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_cleaning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_preprocessing/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_preprocessing/preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_preprocessing/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_preprocessing/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
